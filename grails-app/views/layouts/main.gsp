@@ -36,7 +36,7 @@
                             <ul class="nav">
                                 <li class="active"><a href="#">Home</a></li>
                                 <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><g:link controller="logout"> logout</g:link></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div>
@@ -48,11 +48,9 @@
                     <div class="span3">
                         <div class="well sidebar-nav">
                             <ul class="nav nav-list">
-                                <li class="nav-header">Sidebar</li>
-                                <li class="active"><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li class="nav-header">User</li>
+                                <li><g:link controller="user" action="list"> List all</g:link></li>
+                                <li><g:link controller="user" action="create"> Add new user</g:link></li>
                                 <li class="nav-header">Sidebar</li>
                                 <li><a href="#">Link</a></li>
                                 <li><a href="#">Link</a></li>
@@ -68,7 +66,7 @@
                         </div><!--/.well -->
                     </div><!--/span-->
 
-                    <div class="container">
+                    <div class="container span9">
                         <g:layoutBody/>
                     </div>
 

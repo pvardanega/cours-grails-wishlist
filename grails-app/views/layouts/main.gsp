@@ -51,17 +51,10 @@
                                 <li class="nav-header">User</li>
                                 <li><g:link controller="user" action="list"> List all</g:link></li>
                                 <li><g:link controller="user" action="create"> Add new user</g:link></li>
-                                <li class="nav-header">Sidebar</li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li class="nav-header">Sidebar</li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li class="nav-header">Product</li>
+                                <li><g:link controller="product" action="list"> List all my products</g:link></li>
+                                <li><g:link controller="product" action="create"> Add new product to
+                                my list</g:link>
                             </ul>
                         </div><!--/.well -->
                     </div><!--/span-->

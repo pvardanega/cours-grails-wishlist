@@ -9,6 +9,6 @@ class HomeController {
 
     def index() {
         def currentUser = springSecurityService.currentUser as User
-        render "Hello $currentUser.username"
+        render view: "../index", model: [user: currentUser]
     }
 }

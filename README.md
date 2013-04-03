@@ -35,7 +35,7 @@
 4. customiser le template en rajoutant une barre de navigation et un menu à gauche (cf. [template choisi](https://github.com/twitter/bootstrap/blob/master/docs/examples/fluid.html))
 
 ##Etape 4 : administrer les utilisateurs
-1. générer le contrôleur de gestion des utilisateurs et le modifier pour qu'à l'ajout d'un utilisateur, un rôle lui soit attribué (sinon, il ne sera pas possible de se logger avec) : `grails create-controller com.pvardanega.Slot`
+1. générer le contrôleur de gestion des utilisateurs et le modifier pour qu'à l'ajout d'un utilisateur, un rôle lui soit attribué (sinon, il ne sera pas possible de se logger avec) : `grails create-controller com.pvardanega.User`
 2. faites en sorte que les vues soient générées automatiquement au runtime (scaffolding dynamique)
 3. modifier le menu pour pouvoir lister et, à minima, ajouter un utilisateur
 4. customizer les vues de l’utilisateurs (scaffolding statique)

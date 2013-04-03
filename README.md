@@ -25,7 +25,7 @@
 3. ajouter deux utilisateurs, un administrateur et un utilisateur classique, affectés du bon rôle dans la classe Bootstrap.groovy
 4. ajouter un contrôleur Home qui retourne la chaîne "Hello world" dans sa méthode index
 5. modifier le routage pour que la racine de l'application tombe sur la méthode et le contrôleur précédent
-6. faire en sorte que seuls les utilisateurs authentifiés peuvent accéder au contrôleur Home (rôle IS_FULLY_AUTHENTICATED)
+6. faire en sorte que seuls les utilisateurs authentifiés peuvent accéder au contrôleur Home (rôle IS_AUTHENTICATED_FULLY)
 7. modifier la chaîne retournée par la méthode index du contrôleur Home pour qu'elle retourne "Hello $username". Nécessite l'injection du service : `def springSecurityService`
 
 ##Etape 3 : customizer les vues avec le plugin twitter-bootstrap
